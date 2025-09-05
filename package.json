@@ -1,0 +1,19 @@
+{
+  "name": "discord-automod-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "automod", "leveling"],
+  "author": "",
+  "license": "ISC",
+  "description": "Discord bot with automod, leveling, and moderation features",
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "discord.js": "^14.22.1",
+    "sqlite3": "^5.1.7"
+  }
+}
